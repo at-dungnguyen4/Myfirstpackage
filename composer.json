@@ -1,0 +1,27 @@
+{
+    "name": "dungnguyen/myfirstpackage",
+    "description": "something funny",
+    "require": {
+        "guzzlehttp/guzzle": "6.5.x-dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dung Nguyen",
+            "email": "dung.nguyen4@monstar-lab.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "DungNguyen\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DungNguyen\\Commands\\ArtisanTextServiceProvider"
+            ]
+        }
+    }
+}
